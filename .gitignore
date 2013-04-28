@@ -1,0 +1,6 @@
+project.xcworkspace/
+xcuserdata/
+build/
+*~
+*.swp
+*.DS_Store
