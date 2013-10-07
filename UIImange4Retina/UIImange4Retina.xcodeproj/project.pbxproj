@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0BDC9E618023D45005132D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BDC9E518023D45005132D8 /* Foundation.framework */; };
+		F0BDC9E818023D45005132D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BDC9E718023D45005132D8 /* CoreGraphics.framework */; };
+		F0BDC9EA18023D45005132D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BDC9E918023D45005132D8 /* UIKit.framework */; };
+		F0BDC9F018023D45005132D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0BDC9EE18023D45005132D8 /* InfoPlist.strings */; };
+		F0BDC9F218023D45005132D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BDC9F118023D45005132D8 /* main.m */; };
+		F0BDC9F618023D45005132D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BDC9F518023D45005132D8 /* AppDelegate.m */; };
+		F0BDC9F918023D45005132D8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BDC9F718023D45005132D8 /* Main_iPhone.storyboard */; };
+		F0BDC9FC18023D45005132D8 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BDC9FA18023D45005132D8 /* Main_iPad.storyboard */; };
+		F0BDC9FF18023D45005132D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BDC9FE18023D45005132D8 /* ViewController.m */; };
+		F0BDCA0118023D45005132D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BDCA0018023D45005132D8 /* Images.xcassets */; };
+		F0BDCA0818023D45005132D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BDCA0718023D45005132D8 /* XCTest.framework */; };
+		F0BDCA0918023D45005132D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BDC9E518023D45005132D8 /* Foundation.framework */; };
+		F0BDCA0A18023D45005132D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BDC9E918023D45005132D8 /* UIKit.framework */; };
+		F0BDCA1218023D45005132D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0BDCA1018023D45005132D8 /* InfoPlist.strings */; };
+		F0BDCA1418023D45005132D8 /* UIImange4RetinaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BDCA1318023D45005132D8 /* UIImange4RetinaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0BDCA0B18023D45005132D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0BDC9DA18023D45005132D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0BDC9E118023D45005132D8;
+			remoteInfo = UIImange4Retina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0BDC9E218023D45005132D8 /* UIImange4Retina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImange4Retina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BDC9E518023D45005132D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0BDC9E718023D45005132D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0BDC9E918023D45005132D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0BDC9ED18023D45005132D8 /* UIImange4Retina-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIImange4Retina-Info.plist"; sourceTree = "<group>"; };
+		F0BDC9EF18023D45005132D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0BDC9F118023D45005132D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0BDC9F318023D45005132D8 /* UIImange4Retina-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImange4Retina-Prefix.pch"; sourceTree = "<group>"; };
+		F0BDC9F418023D45005132D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0BDC9F518023D45005132D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0BDC9F818023D45005132D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F0BDC9FB18023D45005132D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F0BDC9FD18023D45005132D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0BDC9FE18023D45005132D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0BDCA0018023D45005132D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0BDCA0618023D45005132D8 /* UIImange4RetinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImange4RetinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BDCA0718023D45005132D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F0BDCA0F18023D45005132D8 /* UIImange4RetinaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIImange4RetinaTests-Info.plist"; sourceTree = "<group>"; };
+		F0BDCA1118023D45005132D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0BDCA1318023D45005132D8 /* UIImange4RetinaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImange4RetinaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0BDC9DF18023D45005132D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BDC9E818023D45005132D8 /* CoreGraphics.framework in Frameworks */,
+				F0BDC9EA18023D45005132D8 /* UIKit.framework in Frameworks */,
+				F0BDC9E618023D45005132D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BDCA0318023D45005132D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BDCA0818023D45005132D8 /* XCTest.framework in Frameworks */,
+				F0BDCA0A18023D45005132D8 /* UIKit.framework in Frameworks */,
+				F0BDCA0918023D45005132D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0BDC9D918023D45005132D8 = {
+			isa = PBXGroup;
+			children = (
+				F0BDC9EB18023D45005132D8 /* UIImange4Retina */,
+				F0BDCA0D18023D45005132D8 /* UIImange4RetinaTests */,
+				F0BDC9E418023D45005132D8 /* Frameworks */,
+				F0BDC9E318023D45005132D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0BDC9E318023D45005132D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0BDC9E218023D45005132D8 /* UIImange4Retina.app */,
+				F0BDCA0618023D45005132D8 /* UIImange4RetinaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0BDC9E418023D45005132D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0BDC9E518023D45005132D8 /* Foundation.framework */,
+				F0BDC9E718023D45005132D8 /* CoreGraphics.framework */,
+				F0BDC9E918023D45005132D8 /* UIKit.framework */,
+				F0BDCA0718023D45005132D8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0BDC9EB18023D45005132D8 /* UIImange4Retina */ = {
+			isa = PBXGroup;
+			children = (
+				F0BDC9F418023D45005132D8 /* AppDelegate.h */,
+				F0BDC9F518023D45005132D8 /* AppDelegate.m */,
+				F0BDC9F718023D45005132D8 /* Main_iPhone.storyboard */,
+				F0BDC9FA18023D45005132D8 /* Main_iPad.storyboard */,
+				F0BDC9FD18023D45005132D8 /* ViewController.h */,
+				F0BDC9FE18023D45005132D8 /* ViewController.m */,
+				F0BDCA0018023D45005132D8 /* Images.xcassets */,
+				F0BDC9EC18023D45005132D8 /* Supporting Files */,
+			);
+			path = UIImange4Retina;
+			sourceTree = "<group>";
+		};
+		F0BDC9EC18023D45005132D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0BDC9ED18023D45005132D8 /* UIImange4Retina-Info.plist */,
+				F0BDC9EE18023D45005132D8 /* InfoPlist.strings */,
+				F0BDC9F118023D45005132D8 /* main.m */,
+				F0BDC9F318023D45005132D8 /* UIImange4Retina-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0BDCA0D18023D45005132D8 /* UIImange4RetinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0BDCA1318023D45005132D8 /* UIImange4RetinaTests.m */,
+				F0BDCA0E18023D45005132D8 /* Supporting Files */,
+			);
+			path = UIImange4RetinaTests;
+			sourceTree = "<group>";
+		};
+		F0BDCA0E18023D45005132D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0BDCA0F18023D45005132D8 /* UIImange4RetinaTests-Info.plist */,
+				F0BDCA1018023D45005132D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0BDC9E118023D45005132D8 /* UIImange4Retina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BDCA1718023D45005132D8 /* Build configuration list for PBXNativeTarget "UIImange4Retina" */;
+			buildPhases = (
+				F0BDC9DE18023D45005132D8 /* Sources */,
+				F0BDC9DF18023D45005132D8 /* Frameworks */,
+				F0BDC9E018023D45005132D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIImange4Retina;
+			productName = UIImange4Retina;
+			productReference = F0BDC9E218023D45005132D8 /* UIImange4Retina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0BDCA0518023D45005132D8 /* UIImange4RetinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BDCA1A18023D45005132D8 /* Build configuration list for PBXNativeTarget "UIImange4RetinaTests" */;
+			buildPhases = (
+				F0BDCA0218023D45005132D8 /* Sources */,
+				F0BDCA0318023D45005132D8 /* Frameworks */,
+				F0BDCA0418023D45005132D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0BDCA0C18023D45005132D8 /* PBXTargetDependency */,
+			);
+			name = UIImange4RetinaTests;
+			productName = UIImange4RetinaTests;
+			productReference = F0BDCA0618023D45005132D8 /* UIImange4RetinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0BDC9DA18023D45005132D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tiesfeed Software JP";
+				TargetAttributes = {
+					F0BDCA0518023D45005132D8 = {
+						TestTargetID = F0BDC9E118023D45005132D8;
+					};
+				};
+			};
+			buildConfigurationList = F0BDC9DD18023D45005132D8 /* Build configuration list for PBXProject "UIImange4Retina" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0BDC9D918023D45005132D8;
+			productRefGroup = F0BDC9E318023D45005132D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0BDC9E118023D45005132D8 /* UIImange4Retina */,
+				F0BDCA0518023D45005132D8 /* UIImange4RetinaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0BDC9E018023D45005132D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BDC9FC18023D45005132D8 /* Main_iPad.storyboard in Resources */,
+				F0BDCA0118023D45005132D8 /* Images.xcassets in Resources */,
+				F0BDC9F918023D45005132D8 /* Main_iPhone.storyboard in Resources */,
+				F0BDC9F018023D45005132D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BDCA0418023D45005132D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BDCA1218023D45005132D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0BDC9DE18023D45005132D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BDC9FF18023D45005132D8 /* ViewController.m in Sources */,
+				F0BDC9F618023D45005132D8 /* AppDelegate.m in Sources */,
+				F0BDC9F218023D45005132D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BDCA0218023D45005132D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BDCA1418023D45005132D8 /* UIImange4RetinaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0BDCA0C18023D45005132D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0BDC9E118023D45005132D8 /* UIImange4Retina */;
+			targetProxy = F0BDCA0B18023D45005132D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0BDC9EE18023D45005132D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0BDC9EF18023D45005132D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0BDC9F718023D45005132D8 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0BDC9F818023D45005132D8 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F0BDC9FA18023D45005132D8 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0BDC9FB18023D45005132D8 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F0BDCA1018023D45005132D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0BDCA1118023D45005132D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0BDCA1518023D45005132D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0BDCA1618023D45005132D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0BDCA1818023D45005132D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIImange4Retina/UIImange4Retina-Prefix.pch";
+				INFOPLIST_FILE = "UIImange4Retina/UIImange4Retina-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0BDCA1918023D45005132D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIImange4Retina/UIImange4Retina-Prefix.pch";
+				INFOPLIST_FILE = "UIImange4Retina/UIImange4Retina-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F0BDCA1B18023D45005132D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIImange4Retina.app/UIImange4Retina";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIImange4Retina/UIImange4Retina-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIImange4RetinaTests/UIImange4RetinaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F0BDCA1C18023D45005132D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIImange4Retina.app/UIImange4Retina";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIImange4Retina/UIImange4Retina-Prefix.pch";
+				INFOPLIST_FILE = "UIImange4RetinaTests/UIImange4RetinaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0BDC9DD18023D45005132D8 /* Build configuration list for PBXProject "UIImange4Retina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BDCA1518023D45005132D8 /* Debug */,
+				F0BDCA1618023D45005132D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0BDCA1718023D45005132D8 /* Build configuration list for PBXNativeTarget "UIImange4Retina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BDCA1818023D45005132D8 /* Debug */,
+				F0BDCA1918023D45005132D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0BDCA1A18023D45005132D8 /* Build configuration list for PBXNativeTarget "UIImange4RetinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BDCA1B18023D45005132D8 /* Debug */,
+				F0BDCA1C18023D45005132D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0BDC9DA18023D45005132D8 /* Project object */;
+}
